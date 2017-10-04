@@ -9,5 +9,5 @@ function countLetters() {
   console.log(obj);
 }
 
-var inputArray = process.argv[2].split('');
+var inputArray = process.argv[2].replace(/\s/g, '').split('');
 countLetters();
